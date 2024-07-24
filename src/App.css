@@ -1,0 +1,48 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* src/components/JobList.css */
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* src/components/JobCard.css */
+
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  margin: 5px 0;
+}
+
+.job-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.job-card a:hover {
+  text-decoration: underline;
+}

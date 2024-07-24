@@ -1,0 +1,37 @@
+/* src/components/JobCard.css */
+
+.job-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .job-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .job-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .job-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .job-card a:hover {
+    text-decoration: underline;
+  }
+  
